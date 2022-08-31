@@ -1,0 +1,27 @@
+{
+    "token": "MTAxNDMyMDU1OTM0NzIxNjQyNQ.GdGoq9.NiHdzP8igziaJu9iUey3TzwvESBf8eTMj99zDg",
+    "prefix": "&",
+    "emojiGuildId": "1007381613186916373",
+    "verify": {
+        "guildId": "1007381613186916373",
+        "channelId": "1014323568332509266",
+        "roleId": "1014331563128914010"
+    },
+    "log": {  
+        "guildId": "1002636911552249896",
+        "channelId": "1014215221163868210"
+    },
+    "autoBoost": false,
+    "autoMessage": {
+        "enabled": false,
+        "text": "",
+        "messageBilling": false,
+        "blockAfterMessage": false
+    },
+    "whitelisted": [],
+    "mongoose": {
+        "enabled": false,
+        "url": "",
+        "schemaName": ""
+    }
+}
