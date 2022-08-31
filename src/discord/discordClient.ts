@@ -10,7 +10,7 @@ const initialise = async ()  => {
         partials: [Partials.Channel, Partials.GuildMember, Partials.GuildScheduledEvent, Partials.Message, Partials.Reaction, Partials.ThreadMember, Partials.User],
         allowedMentions: { parse: ["users", "roles", "everyone"] }
     });
-    client.login(config.token);
+    client.login(process.env.TOKEN);
 
     for (const file of readdirSync(path.join(__dirname, "./events"))) {
         if (!file.endsWith(".ts")) continue;
